@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My-App';
+  displayValue = ''
+  buton = ''
+  getData(val: any) {
+    this.displayValue = val;
+  }
+
+  getInput(val1: any) {
+    this.buton = val1;
+  }
 }
